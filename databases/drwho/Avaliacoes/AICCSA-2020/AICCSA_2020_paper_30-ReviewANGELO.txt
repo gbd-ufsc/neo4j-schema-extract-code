@@ -1,0 +1,27 @@
+Reverse engineering process for NoSQL databases
+
+Overall evaluation:
+	2: accept
+
+Strong Points:
+- Reverse Engineering in NoSQL databases is a topic of growing interest in the community;
+- The author proposes a process to transform logical schemes from a document-oriented database into conceptual schemes, represented in UML;
+- The proposal was validated in a real case study.
+
+
+Weak Points:
+- Some terms may be misused (see comments below).
+
+Critical comments:
+- The concept of Reverse Engineering applies from the extraction of the physical schema to the conceptual schema. The work focuses on only one part of the RE (transformation from physical schema to conceptual schema ). It is suggested changing the title to better suit the content since the physical schema's extraction is covered in previous work.
+- In the Introduction and other parts of the text, terms from the relational data model are used to refer to NoSQL DB concepts (table, row, attribute). Try to follow BD NoSQL's terminologies, for example, as proposed in the books of FOWLER & SADALAGE (collection, document, key-value pair).
+- In order to avoid ambiguities, it is suggested to change the term "data model" by "schema data". Data model is better to indicate the data paradigm of a DBMS (relational, document-oriented, graph etc.). Schema is better to indicate the representation of the data structure in a given database.
+- In the "Comparison" section, graph-oriented databases are discarded as they do not support specific features of the case study. Regarding key-value and column-oriented databases, was any analysis done?
+- DBRef, DBSub, and DBAgg in the physical schema (as well as the physical schema examples in figures 2 and 5) seem to represent a misuse of MongoDB or the aggregate data model. The impression is simulating the use of foreign keys of the relational model. Could you justify better the need for these structures?
+
+
+Reviewer's Confidence:
+	4: I am an expert
+
+Confidential remarks for the program committee:
+The proposal to transform a physical schema into a conceptual schema is consistent. However, the physical schema produced (in previous work) appears to be incorrect.

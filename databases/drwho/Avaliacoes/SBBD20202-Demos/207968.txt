@@ -1,0 +1,9 @@
+O trabalho apresenta a ferramenta QualiOSM, que gera automaticamente um adicionador de tags com o objetivo de melhorar as informações de endereços do Brasil obtidos no OSM. 
+
+O trabalho está bem estruturado e apresenta poucos erros de escrita (por isso recomenda-se uma nova leitura pelos autores para eventuais correções).
+
+O link para acesso ao vídeo da ferramenta não está funcionando.
+
+Não ficou claro no texto a forma de utilização da ferramenta e se os dados complementares são atualizados no OSM (contribuição para a plataforma) ou são para uso em um dataset extraído do OSM (para processamento ad hoc).
+
+Para os três cenários, poderia apresentar dados de exemplos que demonstrem a afirmação  "... o resultado mostrou-se mais satisfatório em relação à inclusão da tag de código postal".

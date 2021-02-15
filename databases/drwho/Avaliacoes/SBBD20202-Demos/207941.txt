@@ -1,0 +1,10 @@
+O trabalho apresenta o Sintomatic, um rastreador de sintomas do COVID 19 e de comportamento mental, baseado em Processamento de Linguagem Natural.
+
+O trabalho é bastante relevante para o contexto atual e, segundo o texto, já encontra-se em uso real.
+
+Apesar de bem estruturado, o texto precisa uma BOA REVISÃO na questão do uso da Língua Portuguesa e na redação:
+* Em vários pontos do texto, falta uma ligação entre o parágrafo atual e o anterior;
+* A seção 2 é a que apresenta o maior número de problemas de redação (corrigir nome de idiomas com inicial maiúscula, colocar em itálico nome dos modelos citados etc.);
+* Na seção 3 aparece "no próximo capítulo", deveria ser "na próxima seção";
+* As Figuras 1, 3 e 4 estão pouco legíveis; 
+* Na Conclusão, o trecho "na imagem abaixo" refere-se à imagem da seção anterior. Essa informação deveria ficar na seção 3.
